@@ -31,7 +31,7 @@
     <q-img
       loading="eager"
       src="~assets\section_two\python_icon.svg"
-      spinner-color="white"
+      aslt=""
       width="100px"
       style="
         position: absolute;
@@ -41,7 +41,7 @@
     <q-img
       loading="eager"
       src="~assets\section_two\opencv_icon.svg"
-      spinner-color="white"
+      alt=""
       width="100px"
       style="
         position: absolute;
@@ -51,7 +51,7 @@
     <q-img
       loading="eager"
       src="~assets\section_two\OpenAI_icon.svg"
-      spinner-color="white"
+      alt=""
       width="400px"
       style="
         position: absolute;
@@ -128,7 +128,7 @@
     <q-img
       loading="eager"
       src="~assets\section_two\PyTorch_icon.svg"
-      spinner-color="white"
+      alt=""
       width="300px"
       style="
         position: absolute;
@@ -138,7 +138,7 @@
     <q-img
       loading="eager"
       src="~assets\section_two\Tensorflow_icon.svg"
-      spinner-color="white"
+      alt=""
       width="100px"
       style="position: absolute; transform: translateX(80px) translateY(230px)"
     />

@@ -107,7 +107,7 @@
     <q-img
       loading="eager"
       src="~assets\section_four\UOG_icon.png"
-      spinner-color="white"
+      alt=""
       width="300px"
       style="
         position: absolute;

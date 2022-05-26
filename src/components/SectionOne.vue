@@ -9,7 +9,12 @@
         <div class="row">
           <q-space />
           <q-avatar size="150px">
-            <img loading="eager" src="~assets\Untitled.png" />
+            <q-img
+              loading="eager"
+              src="~assets\Untitled.png"
+              spinner-color="white"
+              alt=""
+            />
           </q-avatar>
           <q-space />
         </div>

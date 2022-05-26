@@ -29,7 +29,7 @@
     <q-img
       loading="eager"
       src="~assets\section_three\react_icon.svg"
-      spinner-color="white"
+      alt=""
       width="100px"
       style="
         position: absolute;
@@ -39,7 +39,6 @@
     <q-img
       loading="eager"
       src="~assets\section_three\html5_icon.svg"
-      spinner-color="white"
       width="150px"
       style="
         position: absolute;
@@ -56,7 +55,6 @@
     <q-img
       loading="eager"
       src="~assets\section_three\vue_icon.svg"
-      spinner-color="white"
       width="100px"
       style="
         position: absolute;
@@ -126,7 +124,6 @@
     <q-img
       loading="eager"
       src="~assets\section_three\js_icon.svg"
-      spinner-color="white"
       width="100px"
       style="
         position: absolute;
@@ -136,7 +133,6 @@
     <q-img
       loading="eager"
       src="~assets\section_three\nodejs_icon.svg"
-      spinner-color="white"
       width="300px"
       style="
         position: absolute;
@@ -146,7 +142,6 @@
     <q-img
       loading="eager"
       src="~assets\section_three\sql_icon.svg"
-      spinner-color="white"
       width="100px"
       style="
         position: absolute;
@@ -156,7 +151,6 @@
     <q-img
       loading="eager"
       src="~assets\section_three\mongodb_icon.svg"
-      spinner-color="white"
       width="150px"
       style="
         position: absolute;
