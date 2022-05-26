@@ -7,7 +7,7 @@
       <q-card class="my-card text-center .shadow-24">
         <q-img
           style="filter: brightness(60%)"
-          src="~assets\section_three\web_dev.jpg"
+          src="~assets/section_three/web_dev.jpg"
           alt=""
           spinner-color="white"
         />
@@ -26,7 +26,7 @@
   </div>
   <div class="parallax_layer bot_layer">
     <q-img
-      src="~assets\section_three\react_icon.svg"
+      src="~assets/section_three/react_icon.svg"
       spinner-color="white"
       width="100px"
       style="
@@ -35,7 +35,7 @@
       "
     />
     <q-img
-      src="~assets\section_three\html5_icon.svg"
+      src="~assets/section_three/html5_icon.svg"
       spinner-color="white"
       width="150px"
       style="
@@ -51,7 +51,7 @@
     <q-space />
     <q-space />
     <q-img
-      src="~assets\section_three\vue_icon.svg"
+      src="~assets/section_three/vue_icon.svg"
       spinner-color="white"
       width="100px"
       style="
@@ -120,7 +120,7 @@
   </div>
   <div class="parallax_layer final_layer">
     <q-img
-      src="~assets\section_three\js_icon.svg"
+      src="~assets/section_three/js_icon.svg"
       spinner-color="white"
       width="100px"
       style="
@@ -129,7 +129,7 @@
       "
     />
     <q-img
-      src="~assets\section_three\nodejs_icon.svg"
+      src="~assets/section_three/nodejs_icon.svg"
       spinner-color="white"
       width="300px"
       style="
@@ -138,7 +138,7 @@
       "
     />
     <q-img
-      src="~assets\section_three\sql_icon.svg"
+      src="~assets/section_three/sql_icon.svg"
       spinner-color="white"
       width="100px"
       style="
@@ -147,7 +147,7 @@
       "
     />
     <q-img
-      src="~assets\section_three\mongodb_icon.svg"
+      src="~assets/section_three/mongodb_icon.svg"
       spinner-color="white"
       width="150px"
       style="

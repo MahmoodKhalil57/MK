@@ -7,7 +7,7 @@
       <q-card class="my-card text-center .shadow-24">
         <q-img
           style="filter: brightness(60%)"
-          src="~assets\section_four\Glasgow.avif"
+          src="~assets/section_four/Glasgow.avif"
           alt=""
           spinner-color="white"
         />
@@ -104,7 +104,7 @@
   </div>
   <div class="parallax_layer final_layer">
     <q-img
-      src="~assets\section_four\UOG_icon.png"
+      src="~assets/section_four/UOG_icon.png"
       spinner-color="white"
       width="300px"
       style="
