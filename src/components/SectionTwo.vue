@@ -7,7 +7,7 @@
       <q-card class="my-card text-center .shadow-24">
         <q-img
           style="filter: brightness(60%)"
-          src="~assets/section_two/data_science.jpg"
+          src="~assets\section_two\data_science.jpg"
           alt=""
           spinner-color="white"
         />
@@ -28,7 +28,7 @@
   </div>
   <div class="parallax_layer bot_layer">
     <q-img
-      src="~assets/section_two/python_icon.svg"
+      src="~assets\section_two\python_icon.svg"
       spinner-color="white"
       width="100px"
       style="
@@ -37,7 +37,7 @@
       "
     />
     <q-img
-      src="~assets/section_two/opencv_icon.svg"
+      src="~assets\section_two\opencv_icon.svg"
       spinner-color="white"
       width="100px"
       style="
@@ -46,7 +46,7 @@
       "
     />
     <q-img
-      src="~assets/section_two/OpenAI_icon.svg"
+      src="~assets\section_two\OpenAI_icon.svg"
       spinner-color="white"
       width="400px"
       style="
@@ -122,7 +122,7 @@
   </div>
   <div class="parallax_layer final_layer">
     <q-img
-      src="~assets/section_two/PyTorch_icon.svg"
+      src="~assets\section_two\PyTorch_icon.svg"
       spinner-color="white"
       width="300px"
       style="
@@ -131,7 +131,7 @@
       "
     />
     <q-img
-      src="~assets/section_two/Tensorflow_icon.svg"
+      src="~assets\section_two\Tensorflow_icon.svg"
       spinner-color="white"
       width="100px"
       style="position: absolute; transform: translateX(80px) translateY(230px)"

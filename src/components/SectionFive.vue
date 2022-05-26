@@ -8,7 +8,7 @@
         <q-img
           position="0% 0%"
           style="filter: brightness(60%)"
-          src="~assets/section_five/image.png"
+          src="~assets\section_five\image.png"
           alt=""
           spinner-color="white"
         />
