@@ -15,9 +15,9 @@
 }
 
 body {
+  background-color: $secondary;
   font-family: sans-serif;
   font-size: 4em;
-  color: white;
   scroll-behavior: smooth;
 
   .space {

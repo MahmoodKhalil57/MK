@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white">
+  <div>
     <div class="row q-pa-xl q-gutter-lg">
       <div class="column">
         <div class="q-pl-sm text-subtitle1 text-grey text-center">
@@ -28,8 +28,11 @@
         <div class="text-grey text-h6 q-ml-lg">Learn it, get it done.</div>
       </div>
     </div>
-    <div class="q-pt-xl text-center">
-      <q-icon name="expand_more" color="primary" size="80px" />
+    <div
+      class="q-pt-xl text-center absolute"
+      style="transform: translateX(450%) translateY(70px)"
+    >
+      <q-icon :name="icon" color="primary" size="80px" />
     </div>
   </div>
 </template>
@@ -37,8 +40,21 @@
 <script>
 export default {
   name: "SectionOne",
-  setup() {
-    return {};
+  data() {
+    return {
+      icon: "",
+    };
+  },
+  methods: {
+    load_arrow_animation() {
+      this.delay(5000).then(() => (this.icon = "expand_less"));
+    },
+    delay(time) {
+      return new Promise((resolve) => setTimeout(resolve, time));
+    },
+  },
+  created: function () {
+    this.load_arrow_animation();
   },
 };
 </script>

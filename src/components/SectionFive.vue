@@ -1,32 +1,28 @@
 <template>
-  <div class="parallax_layer base_layer">
-    <div class="parallax_layer mid_layer q-gutter-xl">
-      <q-space />
-      <q-space />
-      <q-space />
-      <q-card height="150px" class="my-card text-center .shadow-24">
-        <q-img
-          loading="eager"
-          position="0% 0%"
-          style="filter: brightness(60%)"
-          src="~assets\section_five\image.png"
-          alt=""
-          spinner-color="white"
-        />
+  <div class="parallax_layer base_layer q-gutter-xl">
+    <q-space />
+    <q-space />
+    <q-space />
+    <q-card height="150px" class="my-card text-center .shadow-24">
+      <q-img
+        loading="eager"
+        position="0% 0%"
+        style="filter: brightness(60%)"
+        src="~assets\section_five\image.png"
+        alt=""
+        spinner-color="white"
+      />
 
-        <q-card-section
-          class="text-black text-subtitle1"
-          style="max-width: 300px"
-        >
-          I have always been facinated by data science and the possibilities it
-          opened up. I mainly focus on machine learning, ai, and deep learning,
-          looking forward to tackling natural language processing soon!
-        </q-card-section>
-      </q-card>
-      <q-space />
-    </div>
-
-    <span class="invisible"> Base Layer page </span>
+      <q-card-section
+        class="text-black text-subtitle1"
+        style="max-width: 300px"
+      >
+        I have always been facinated by data science and the possibilities it
+        opened up. I mainly focus on machine learning, ai, and deep learning,
+        looking forward to tackling natural language processing soon!
+      </q-card-section>
+    </q-card>
+    <q-space />
   </div>
   <div class="parallax_layer bot_layer"></div>
   <div class="parallax_layer mid_layer q-gutter-xl">
@@ -65,7 +61,7 @@
         background-color: gray;
         width: 175px;
         height: 20px;
-        transform: translateX(310px) translateY(-300px);
+        transform: translateX(320px) translateY(-275px);
         border-radius: 50px 50px 0px 0px;
         opacity: 0.7;
       "
@@ -76,7 +72,7 @@
         background-color: white;
         width: 250px;
         height: 20px;
-        transform: translateX(310px) translateY(-260px);
+        transform: translateX(320px) translateY(-245px);
         border-radius: 50px 50px 0px 0px;
         opacity: 0.7;
       "
@@ -87,7 +83,7 @@
         background-color: white;
         width: 300px;
         height: 20px;
-        transform: translateX(310px) translateY(260px);
+        transform: translateX(320px) translateY(263px);
         border-radius: 3px 3px 12px 12px;
         opacity: 0.7;
       "

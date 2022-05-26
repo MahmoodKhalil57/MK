@@ -1,29 +1,27 @@
 <template>
-  <div class="parallax_layer base_layer">
-    <div class="parallax_layer mid_layer q-gutter-xl">
-      <q-space />
-      <q-space />
-      <q-space />
-      <q-card class="my-card text-center .shadow-24">
-        <q-img
-          loading="eager"
-          style="filter: brightness(60%)"
-          src="~assets\section_three\web_dev.jpg"
-          alt=""
-          spinner-color="white"
-        />
+  <div class="parallax_layer base_layer q-gutter-xl">
+    <q-space />
+    <q-space />
+    <q-space />
+    <q-card class="my-card text-center .shadow-24">
+      <q-img
+        loading="eager"
+        style="filter: brightness(60%)"
+        src="~assets\section_three\web_dev.jpg"
+        alt=""
+        spinner-color="white"
+      />
 
-        <q-card-section
-          class="text-black text-subtitle1"
-          style="max-width: 300px"
-        >
-          I have found that focusing on web development allows me to build
-          beautiful, responsive, and easy to use applications that can be used
-          on many modern devices.
-        </q-card-section>
-      </q-card>
-      <q-space />
-    </div>
+      <q-card-section
+        class="text-black text-subtitle1"
+        style="max-width: 300px"
+      >
+        I have found that focusing on web development allows me to build
+        beautiful, responsive, and easy to use applications that can be used on
+        many modern devices.
+      </q-card-section>
+    </q-card>
+    <q-space />
   </div>
   <div class="parallax_layer bot_layer">
     <q-img
@@ -91,7 +89,7 @@
         background-color: gray;
         width: 175px;
         height: 20px;
-        transform: translateX(310px) translateY(-240px);
+        transform: translateX(320px) translateY(-215px);
         border-radius: 50px 50px 0px 0px;
         opacity: 0.7;
       "
@@ -102,7 +100,7 @@
         background-color: white;
         width: 250px;
         height: 20px;
-        transform: translateX(310px) translateY(-200px);
+        transform: translateX(320px) translateY(-185px);
         border-radius: 50px 50px 0px 0px;
         opacity: 0.7;
       "
@@ -113,7 +111,7 @@
         background-color: white;
         width: 300px;
         height: 20px;
-        transform: translateX(310px) translateY(200px);
+        transform: translateX(320px) translateY(205px);
         border-radius: 3px 3px 12px 12px;
         opacity: 0.7;
       "
