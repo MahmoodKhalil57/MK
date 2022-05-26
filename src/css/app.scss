@@ -1,0 +1,111 @@
+// app global css in SCSS form
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@mixin align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 4em;
+  color: white;
+  scroll-behavior: smooth;
+
+  .space {
+    height: 100vh;
+    background-color: $secondary;
+  }
+
+  .parallax_wrapper {
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 300px;
+
+    scroll-snap-type: y mandatory;
+
+    .intro_screen {
+      height: 100vh;
+      background-color: $secondary;
+      @include align-center();
+    }
+    .outro_screen {
+      height: 100vh;
+      background-color: $secondary;
+      @include align-center();
+    }
+
+    .parallax_group {
+      height: 100vh;
+      transform-style: preserve-3d;
+
+      scroll-snap-align: center;
+      scroll-snap-stop: always;
+    }
+
+    .parallax_layer {
+      position: absolute;
+      inset: 0;
+      @include align-center();
+    }
+    .base_layer {
+      transform: translateZ(-300px) scale(2);
+      z-index: 1;
+    }
+    .bot_layer {
+      transform: translateZ(-150px) scale(1.5);
+      color: yellow;
+      z-index: 2;
+    }
+    .mid_layer {
+      transform: translateZ(0);
+      color: yellow;
+      z-index: 3;
+    }
+    .top_layer {
+      transform: translateZ(150px) scale(0.5);
+      color: blue;
+      z-index: 4;
+    }
+    .final_layer {
+      transform: translateZ(200px) scale(0.33);
+      color: yellow;
+      z-index: 5;
+    }
+  }
+
+  #intro {
+  }
+  #group-1 {
+  }
+  #group-1 > .base_layer {
+    background-color: $primary;
+  }
+  #group-2 {
+  }
+  #group-2 > .base_layer {
+    background-color: $secondary;
+  }
+  #group-3 {
+  }
+  #group-3 > .base_layer {
+    background-color: $primary;
+  }
+  #group-4 {
+  }
+  #group-4 > .base_layer {
+    background-color: $secondary;
+  }
+  #outro {
+  }
+}
