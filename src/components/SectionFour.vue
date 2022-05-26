@@ -6,6 +6,7 @@
       <q-space />
       <q-card class="my-card text-center .shadow-24">
         <q-img
+          loading="eager"
           style="filter: brightness(60%)"
           src="~assets\section_four\Glasgow.avif"
           alt=""
@@ -104,6 +105,7 @@
   </div>
   <div class="parallax_layer final_layer">
     <q-img
+      loading="eager"
       src="~assets\section_four\UOG_icon.png"
       spinner-color="white"
       width="300px"

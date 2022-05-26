@@ -6,6 +6,7 @@
       <q-space />
       <q-card height="150px" class="my-card text-center .shadow-24">
         <q-img
+          loading="eager"
           position="0% 0%"
           style="filter: brightness(60%)"
           src="~assets\section_five\image.png"

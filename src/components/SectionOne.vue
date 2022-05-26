@@ -9,7 +9,7 @@
         <div class="row">
           <q-space />
           <q-avatar size="150px">
-            <img src="~assets\Untitled.png" />
+            <img loading="eager" src="~assets\Untitled.png" />
           </q-avatar>
           <q-space />
         </div>

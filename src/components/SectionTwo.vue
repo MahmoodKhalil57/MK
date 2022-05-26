@@ -6,6 +6,7 @@
       <q-space />
       <q-card class="my-card text-center .shadow-24">
         <q-img
+          loading="eager"
           style="filter: brightness(60%)"
           src="~assets\section_two\data_science.jpg"
           alt=""
@@ -28,6 +29,7 @@
   </div>
   <div class="parallax_layer bot_layer">
     <q-img
+      loading="eager"
       src="~assets\section_two\python_icon.svg"
       spinner-color="white"
       width="100px"
@@ -37,6 +39,7 @@
       "
     />
     <q-img
+      loading="eager"
       src="~assets\section_two\opencv_icon.svg"
       spinner-color="white"
       width="100px"
@@ -46,6 +49,7 @@
       "
     />
     <q-img
+      loading="eager"
       src="~assets\section_two\OpenAI_icon.svg"
       spinner-color="white"
       width="400px"
@@ -122,6 +126,7 @@
   </div>
   <div class="parallax_layer final_layer">
     <q-img
+      loading="eager"
       src="~assets\section_two\PyTorch_icon.svg"
       spinner-color="white"
       width="300px"
@@ -131,6 +136,7 @@
       "
     />
     <q-img
+      loading="eager"
       src="~assets\section_two\Tensorflow_icon.svg"
       spinner-color="white"
       width="100px"
